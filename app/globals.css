@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#nav-list {
+    @apply w-[400px];
+}
+
+#nav-list li {
+    @apply w-full hover:text-blue-300 py-2;
+}
