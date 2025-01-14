@@ -9,3 +9,7 @@
 #nav-list li {
     @apply w-full hover:text-blue-300 py-2;
 }
+
+.content-container {
+    @apply 2xl:w-[1320px] xl:w-[1140px] lg:w-[960px] md:w-[720px] w-[540px] mx-auto px-2;
+}

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      height: {
+        section: '630px',
+      },
       fontSize: {
         normal: '16px',
         medium: '18px',
