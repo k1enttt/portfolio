@@ -8,10 +8,33 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontSize: {
+        normal: '16px',
+        medium: '18px',
+        large: '21px',
+        h5: '21px',
+        h4: '24px',
+        h3: '28px',
+        h2: '40px',
+        h1: '48px',
+        author: '32px',
+        who_am_i: '104px'
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      fontWeight: {
+          normal: '400',
+          semibold: '500',
+          bold: '600'
+      },
+      colors: {
+        black: '#212529',
+        gray: '#6C757D'
+      },
+      backgroundColor: {
+        primary: '#F5DF4E'
+      }
     },
   },
   plugins: [],
