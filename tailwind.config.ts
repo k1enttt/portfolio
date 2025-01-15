@@ -36,6 +36,10 @@ const config: Config = {
         gray: '#6C757D'
       },
       backgroundColor: {
+        primary: '#F5DF4E',
+        gray_light: '#212529'
+      },
+      borderColor: {
         primary: '#F5DF4E'
       }
     },
